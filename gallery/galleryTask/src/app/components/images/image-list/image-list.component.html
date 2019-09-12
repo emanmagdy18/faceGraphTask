@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row">
+    <div class="div-add-new">
+      <button class="btn btn-primary btn-add" (click)="file.click()">Add image</button>
+      <button class="btn btn-danger" (click)="deleteAllImgs()">Delete All</button>
+    </div>
+    <input style="display: none;" type="file" #file [(ngModel)]="fileUpload"
+      (change)="insertNewImg($event.target.files)" accept="image/*" />
+      <span *ngIf="fileExtensionError && fileSizeError" class="error">file Not valid</span>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th width="1%">Index</th>
+            <th width="50%">Name</th>
+            <th width="30%">image</th>
+            <th width="1%">download</th>
+            <th width="1%">delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngIf="images.length >0">
+            <tr *ngFor="let img of images| paginate: { itemsPerPage: 3, currentPage: p };let i=index">
+              <td width="1%">{{i+1}}</td>
+              <td width="50%">{{img.name}}</td>
+              <td width="30%"><img src="{{img.uri}}" width="100px" height="100px"></td>
+              <td width="1%"><i class="fa fa-download icon" (click)="downloadImg(img.name);"></i></td>
+              <td width="1%"><i class="fa fa-trash icon" (click)="deleteImg(img.name);"></i></td>
+            </tr>
+          </ng-container>
+          <ng-container *ngIf="images.length ==0">
+            <tr>
+              <td colspan="5" class="no-data">there is no data</td>
+            </tr>
+          </ng-container>
+        </tbody>
+        <div class="pagination" *ngIf="images.length >0">
+          <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
+      </table>
+    </div>
+  </div>
+</div>

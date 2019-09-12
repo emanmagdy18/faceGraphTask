@@ -1,0 +1,53 @@
+.content-container{
+    width: 106%;
+}
+
+#yes-button{
+    background-color: #b6bece;
+    border-radius: 0px;
+    margin-top: 10px;
+    width: 40%;
+    border: none;
+    padding: 1.1em 5em;
+    color: #fff;
+    font-family: 'TitilliumText22LRegular', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 0px;
+    text-align: center;
+}
+
+#no-button{
+    background-color:tomato;
+    border-radius: 0px;
+    margin-top: 10px;
+    width: 40%;
+    border: none;
+    padding: 1.1em 5em;
+    color: #fff;
+    font-family: 'TitilliumText22LRegular', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 0px;
+    text-align: center;
+    }
+
+.content-span
+{
+    padding: 35px 16px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.confirm-dialog-container .content-container
+{
+    margin: 5px 5px 15px 5px;
+    color: #8f9cb5;
+    display: flex;
+}
+
+.confirm-dialog-container{
+    margin-left: auto;
+    order: 2;
+    font-weight: bolder;
+}

@@ -1,0 +1,14 @@
+F:\faceGraphTask\gallery\gallery\bin\Debug\netcoreapp2.2\gallery.deps.json
+F:\faceGraphTask\gallery\gallery\bin\Debug\netcoreapp2.2\gallery.runtimeconfig.json
+F:\faceGraphTask\gallery\gallery\bin\Debug\netcoreapp2.2\gallery.runtimeconfig.dev.json
+F:\faceGraphTask\gallery\gallery\bin\Debug\netcoreapp2.2\gallery.dll
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.csprojAssemblyReference.cache
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.csproj.CoreCompileInputs.cache
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.RazorAssemblyInfo.cache
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.RazorAssemblyInfo.cs
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.AssemblyInfoInputs.cache
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.AssemblyInfo.cs
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.RazorTargetAssemblyInfo.cache
+F:\faceGraphTask\gallery\gallery\bin\Debug\netcoreapp2.2\gallery.pdb
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.dll
+F:\faceGraphTask\gallery\gallery\obj\Debug\netcoreapp2.2\gallery.pdb
